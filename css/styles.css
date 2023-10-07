@@ -108,3 +108,8 @@ li {
   color: #fff;
   background-color: #4d5ae5;
 }
+
+.hero .btn:hover,
+.hero .btn:focus {
+  color: #4d5ae5;
+}
