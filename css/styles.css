@@ -58,7 +58,7 @@ li {
   color: #2e2f42;
 }
 
-.address {
+address {
   font-style: normal;
 }
 
@@ -124,7 +124,7 @@ li {
 
 .hero .btn:hover,
 .hero .btn:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 /* ================FEATURE================ */
@@ -133,9 +133,10 @@ li {
   font-size: 36px;
   font-weight: 700;
 
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  text-align: center;
 
   color: #2e2f42;
 }
@@ -158,14 +159,14 @@ li {
   letter-spacing: 0.32px;
 }
 
-/* ================FEATURE================ */
+/* ================TEAM================ */
 
 .team {
   background-color: #f4f4fd;
 }
 
 .portfolio-item {
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 .team-title {
