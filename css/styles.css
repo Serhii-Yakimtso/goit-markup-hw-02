@@ -190,6 +190,10 @@ address {
 
 /* ================PORTFOLIO================ */
 
+.portfolio-item {
+  background-color: #fff;
+}
+
 .portfolio-title {
   font-size: 20px;
   font-weight: 500;
