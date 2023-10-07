@@ -50,8 +50,8 @@ li {
 .nav-link {
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5;
 
+  line-height: 1.5;
   letter-spacing: 0.32px;
   text-transform: capitalize;
 
@@ -106,10 +106,42 @@ li {
   text-transform: capitalize;
 
   color: #fff;
+
   background-color: #4d5ae5;
 }
 
 .hero .btn:hover,
 .hero .btn:focus {
   color: #4d5ae5;
+}
+
+/* ================FEATURE================ */
+
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+
+  line-height: 1.11111;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+
+  color: #2e2f42;
+}
+
+.feature-title {
+  font-size: 20px;
+  font-weight: 500;
+
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  text-transform: capitalize;
+
+  color: #2e2f42;
+}
+
+.feature-text {
+  font-size: 16px;
+
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
