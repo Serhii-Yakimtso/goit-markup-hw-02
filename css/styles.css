@@ -61,6 +61,7 @@ li {
 .address-link {
   font-size: 16px;
   font-style: normal;
+
   line-height: 1.5;
   letter-spacing: 0.32px;
   text-transform: lowercase;
@@ -75,4 +76,35 @@ li {
 .address-link:hover,
 .address-link:focus {
   color: #404bbf;
+}
+
+/* ================HERO================ */
+
+.hero {
+  background-color: #2e2f42;
+}
+
+.page-title {
+  font-size: 56px;
+  font-weight: 700;
+
+  line-height: 1.07143;
+  letter-spacing: 1.12px;
+
+  color: #fff;
+
+  text-align: center;
+}
+
+.hero .btn {
+  font-size: 16px;
+  font-weight: 500;
+
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+
+  text-transform: capitalize;
+
+  color: #fff;
+  background-color: #4d5ae5;
 }
