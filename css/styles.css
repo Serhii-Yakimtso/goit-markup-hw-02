@@ -36,7 +36,7 @@ li {
   font-size: 18px;
   font-weight: 700;
 
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 
@@ -58,9 +58,12 @@ li {
   color: #2e2f42;
 }
 
+.address {
+  font-style: normal;
+}
+
 .address-link {
   font-size: 16px;
-  font-style: normal;
 
   line-height: 1.5;
   letter-spacing: 0.32px;
@@ -94,7 +97,7 @@ li {
   font-size: 56px;
   font-weight: 700;
 
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 1.12px;
 
   color: #fff;
@@ -103,6 +106,7 @@ li {
 }
 
 .hero .btn {
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
 
@@ -114,11 +118,13 @@ li {
   color: #fff;
 
   background-color: #4d5ae5;
+
+  cursor: pointer;
 }
 
 .hero .btn:hover,
 .hero .btn:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
 /* ================FEATURE================ */
@@ -154,12 +160,21 @@ li {
 
 /* ================FEATURE================ */
 
+.team {
+  background-color: #f4f4fd;
+}
+
+.portfolio-item {
+  background-color: #fff;
+}
+
 .team-title {
   font-size: 20px;
   font-weight: 500;
 
   line-height: 1.2;
   letter-spacing: 0.4px;
+  text-align: center;
   text-transform: capitalize;
 
   color: #2e2f42;
@@ -200,11 +215,11 @@ li {
 }
 
 .footer-logo {
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
 
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 
